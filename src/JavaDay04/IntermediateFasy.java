@@ -7,7 +7,6 @@ public class IntermediateFasy {
 
 //A3. Write a program that asks the user for the first number and the last number and
 //then prints odd numbers between those two.
-
         int[] numbersArray = new int[100];
 
         for(int i = 0; i < 100; i++){
@@ -31,6 +30,5 @@ public class IntermediateFasy {
         System.out.print("Please enter a Number to be summed up: ");
         float n = in.nextFloat();
         System.out.println((int)((n/2f + 0.5f) * n));
-
     }
 }
